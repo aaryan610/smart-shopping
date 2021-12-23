@@ -1,0 +1,21 @@
+.navbar {
+  min-height: 10vh;
+}
+
+/* Jumbotron (hero) */
+.jumbotron {
+  position: relative;
+  background: url("../images/home/background.jpg") no-repeat bottom center/cover;
+  height: 90vh;
+}
+
+.jumbotron:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*# sourceMappingURL=common.css.map */
