@@ -19,7 +19,7 @@
             if($count1 == 0) {
             ?>
                 <div class="alert alert-danger">
-                    <strong>Oops!</strong> The Email-Id you entered, doesn't exist. <a href="signup.php" style="text-decoration: underline;">Sign Up</a> to create an account.
+                    <strong>Oops!</strong> The Email-Id you entered, doesn't exist. <a href="./signup.html.php" style="text-decoration: underline;">Sign Up</a> to create an account.
                 </div>
             <?php
             } else {
@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="input-group mb-3">
-                            <button type="submit" class="btn btn-primary form-control">Login</button>
+                            <button type="submit" class="btn btn-primary form-control">Log In</button>
                         </div>
                     </div>
                 </div>

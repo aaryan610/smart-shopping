@@ -116,7 +116,6 @@
                                     <td><?php echo $i . "."; ?></td>
                                     <td><?php echo $rowProduct['name']; ?></td>
                                     <td><?php echo $rowProduct['price']; ?></td>
-                                    <td><?php echo $rowCart['qty']; ?></td>
                                     <th>
                                         <div class="row text-center align-items-center">
                                             <form action="" class="col-lg-3" method="POST">
